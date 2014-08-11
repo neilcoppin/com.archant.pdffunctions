@@ -1,0 +1,13 @@
+<appian-plugin name="PDF Functions" key="com.archant.pdffunctions">
+
+  <plugin-info>
+    <description>PDF Functions</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+
+
+  <smart-service name="pdfSize" key="pdfSize"
+    class="com.archant.pdffunctions.PdfSize" />
+</appian-plugin>
